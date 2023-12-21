@@ -1,10 +1,10 @@
-import _ from 'lodash';
+import myName from './myName';
 
 function component() {
     const element = document.createElement('div');
   
-    // Lodash is now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+    // use the imported myName function
+    element.innerText = myName('Ndzi Nfor');
   
     return element;
   }
