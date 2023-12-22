@@ -18,6 +18,7 @@ function component() {
 
     element.appendChild(myIcon);
 
+    // display csv and xml data bundled by webpack
     console.log(Data);
     console.log(Notes);
 
